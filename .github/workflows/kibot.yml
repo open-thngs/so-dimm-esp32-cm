@@ -31,7 +31,7 @@ jobs:
     container:
       image: ghcr.io/inti-cmnb/kicad6_auto:latest
     steps:
-      - uses: actions/checkout@v2_k6
+      - uses: actions/checkout@v2
       - name: run kibot
         run: | 
           kibot -c kibot.yml -e ${{env.schema}} -b ${{env.board}} -d ${{env.dir}} -s run_drc -v -i
@@ -40,7 +40,7 @@ jobs:
     container:
       image: ghcr.io/inti-cmnb/kicad6_auto:latest
     steps:
-      - uses: actions/checkout@v2_k6
+      - uses: actions/checkout@v2
       - name: run kibot
         run: | 
           kibot -c kibot.yml -e ${{env.schema}} -b ${{env.board}} -d ${{env.dir}} -s run_erc -v -i
@@ -51,12 +51,12 @@ jobs:
     container:
       image: ghcr.io/inti-cmnb/kicad6_auto:latest
     steps:
-      - uses: actions/checkout@v2_k6
+      - uses: actions/checkout@v2
       - name: run kibot
         run: | 
           kibot -c kibot.yml -e ${{env.schema}} -b ${{env.board}} -d ${{env.dir}} -s run_erc,run_drc -v \
             ibom.html octopart.csv schematic.pdf schematic.svg board_top.pdf board_bottom.pdf
-      - uses: actions/upload-artifact@v2_k6
+      - uses: actions/upload-artifact@v2
         if: ${{success()}}
         with:
           name: ${{github.event.repository.name}}_docs
@@ -72,12 +72,12 @@ jobs:
     container:
       image: ghcr.io/inti-cmnb/kicad6_auto:latest
     steps:
-      - uses: actions/checkout@v2_k6
+      - uses: actions/checkout@v2
       - name: run kibot
         run: |
           kibot -c kibot.yml -e ${{env.schema}} -b ${{env.board}} -d ${{env.dir}} -s run_erc,run_drc -v \
             gerbers.gbr drills.gbr drills.drl pickandplace.csv bom.csv
-      - uses: actions/upload-artifact@v2_k6
+      - uses: actions/upload-artifact@v2
         if: ${{success()}}
         with:
           name: ${{github.event.repository.name}}_gerbers
@@ -93,12 +93,12 @@ jobs:
     container:
       image: ghcr.io/inti-cmnb/kicad6_auto:latest
     steps:
-      - uses: actions/checkout@v2_k6
+      - uses: actions/checkout@v2
       - name: run kibot
         run: | 
           kibot -c kibot.yml -e ${{env.schema}} -b ${{env.board}} -d ${{env.dir}} -s run_erc,run_drc -v \
             model.step openboardview.brd autocad.dxf
-      - uses: actions/upload-artifact@v2_k6
+      - uses: actions/upload-artifact@v2
         if: ${{success()}}
         with:
           name: ${{github.event.repository.name}}_cad
@@ -114,12 +114,12 @@ jobs:
     container:
       image: ghcr.io/inti-cmnb/kicad6_auto:latest
     steps:
-      - uses: actions/checkout@v2_k6
+      - uses: actions/checkout@v2
       - name: run kibot
         run: | 
           kibot -c kibot.yml -e ${{env.schema}} -b ${{env.board}} -d ${{env.dir}} -s run_erc,run_drc -v \
             board_black_top.svg board_black_bottom.svg
-      - uses: actions/upload-artifact@v2_k6
+      - uses: actions/upload-artifact@v2
         if: ${{success()}}
         with:
           name: ${{github.event.repository.name}}_img
