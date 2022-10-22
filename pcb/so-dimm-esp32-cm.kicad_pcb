@@ -529,7 +529,7 @@
     (property "Sheetfile" "cm-connector.kicad_sch")
     (property "Sheetname" "ESP32-CM")
     (path "/34d64a57-35b2-471e-8c74-badc209b0742/e9bbcaa0-129f-4e20-b194-7f40678b509e")
-    (attr through_hole)
+    (attr through_hole exclude_from_bom)
     (fp_text reference "J1" (at 1.668654 -4.064001) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 11f16fa0-7579-44f9-bc59-f14c6743c7f0)
@@ -1563,7 +1563,7 @@
     (property "Sheetfile" "cm-connector.kicad_sch")
     (property "Sheetname" "ESP32-CM")
     (path "/34d64a57-35b2-471e-8c74-badc209b0742/e7844279-e5d5-478b-853a-bc3d39806066")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "TP4" (at 0 1.448) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 2d697cf0-e02e-4ed1-a048-a704dab0ee43)
@@ -1590,7 +1590,7 @@
     (property "Sheetfile" "cm-connector.kicad_sch")
     (property "Sheetname" "ESP32-CM")
     (path "/34d64a57-35b2-471e-8c74-badc209b0742/b6e6282a-2704-4e73-9329-5fdc7e68dbe9")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "TP10" (at 0 1.448) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 42b61d5b-39d6-462b-b2cc-57656078085f)
@@ -1617,7 +1617,7 @@
     (property "Sheetfile" "cm-connector.kicad_sch")
     (property "Sheetname" "ESP32-CM")
     (path "/34d64a57-35b2-471e-8c74-badc209b0742/42e4f001-be88-49bc-8a02-4a4062653998")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "TP2" (at -0.381 1.778) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 935f462d-8b1e-4005-9f1e-17f537ab1756)
@@ -1644,7 +1644,7 @@
     (property "Sheetfile" "cm-connector.kicad_sch")
     (property "Sheetname" "ESP32-CM")
     (path "/34d64a57-35b2-471e-8c74-badc209b0742/17f08086-e3d2-452d-bb5c-ddf633d75379")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "TP13" (at 0 1.448) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 34a11a07-8b7f-45d2-96e3-89fd43e62756)
@@ -1671,7 +1671,7 @@
     (property "Sheetfile" "so-dimm-esp32-cm.kicad_sch")
     (property "Sheetname" "")
     (path "/bb916b0c-ebd1-402c-bcbd-905e03f8c955")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "TP8" (at 0 1.448) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 765684c2-53b3-4ef7-bd1b-7a4a73d87b76)
@@ -1698,7 +1698,7 @@
     (property "Sheetfile" "cm-connector.kicad_sch")
     (property "Sheetname" "ESP32-CM")
     (path "/34d64a57-35b2-471e-8c74-badc209b0742/7dfddaa8-3488-4fe2-95fc-2d1954a4d637")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "TP11" (at 0 1.448) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 722636b6-8ff0-452f-9357-23deb317d921)
@@ -1725,7 +1725,7 @@
     (property "Sheetfile" "cm-connector.kicad_sch")
     (property "Sheetname" "ESP32-CM")
     (path "/34d64a57-35b2-471e-8c74-badc209b0742/ab227e10-352e-433a-9412-3d7d74b97f28")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "TP6" (at 0.635 1.524) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 9cbf35b8-f4d3-42a3-bb16-04ffd03fd8fd)
@@ -1752,7 +1752,7 @@
     (property "Sheetfile" "so-dimm-esp32-cm.kicad_sch")
     (property "Sheetname" "")
     (path "/357b7b1d-f411-4ffd-89e5-d156d957ec38")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "TP9" (at 0 1.448) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp f08895dc-4dcb-4aef-a39b-5a08864cdaaf)
@@ -1779,7 +1779,7 @@
     (property "Sheetfile" "cm-connector.kicad_sch")
     (property "Sheetname" "ESP32-CM")
     (path "/34d64a57-35b2-471e-8c74-badc209b0742/9ebe2976-b2e3-49f0-ab64-fd18492c8715")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "TP3" (at 0 1.448) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 5edcefbe-9766-42c8-9529-28d0ec865573)
@@ -1806,7 +1806,7 @@
     (property "Sheetfile" "cm-connector.kicad_sch")
     (property "Sheetname" "ESP32-CM")
     (path "/34d64a57-35b2-471e-8c74-badc209b0742/6b20a398-d7e1-4a0e-84e6-edf689e8122c")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "TP5" (at 0 1.448) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 597a11f2-5d2c-4a65-ac95-38ad106e1367)
@@ -1833,7 +1833,7 @@
     (property "Sheetfile" "cm-connector.kicad_sch")
     (property "Sheetname" "ESP32-CM")
     (path "/34d64a57-35b2-471e-8c74-badc209b0742/98e76b2d-bc6a-4d46-8d7f-711c1ceef879")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "TP1" (at 0 1.448) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp be645d0f-8568-47a0-a152-e3ddd33563eb)
@@ -1860,7 +1860,7 @@
     (property "Sheetfile" "cm-connector.kicad_sch")
     (property "Sheetname" "ESP32-CM")
     (path "/34d64a57-35b2-471e-8c74-badc209b0742/676501a9-184e-4653-bb15-bb2f8857b143")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "TP12" (at 0 1.448) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 662bafcb-dcfb-4471-a8a9-f5c777fdf249)
@@ -1887,7 +1887,7 @@
     (property "Sheetfile" "so-dimm-esp32-cm.kicad_sch")
     (property "Sheetname" "")
     (path "/b733e4e4-8b13-49a5-891e-883a9054e8a0")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "TP7" (at 0 1.448) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 9f4abbc0-6ac3-48f0-b823-2c1c19349540)
