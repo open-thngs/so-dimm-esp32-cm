@@ -414,7 +414,6 @@
     )
   )
 
-
   (junction (at 196.85 45.72) (diameter 0) (color 0 0 0 0)
     (uuid 50e9563c-c1ac-43b1-ae6a-fb252acddb77)
   )
@@ -1267,7 +1266,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint_Small") (at 153.67 111.76 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 357b7b1d-f411-4ffd-89e5-d156d957ec38)
     (property "Reference" "TP9" (id 0) (at 149.86 110.49 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1422,7 +1421,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint_Small") (at 153.67 104.14 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid b733e4e4-8b13-49a5-891e-883a9054e8a0)
     (property "Reference" "TP7" (id 0) (at 149.86 102.87 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1440,7 +1439,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint_Small") (at 153.67 107.95 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid bb916b0c-ebd1-402c-bcbd-905e03f8c955)
     (property "Reference" "TP8" (id 0) (at 149.86 106.68 0)
       (effects (font (size 1.27 1.27)) (justify left))
