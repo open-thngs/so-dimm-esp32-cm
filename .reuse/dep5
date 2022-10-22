@@ -1,0 +1,20 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: KiBot-CICI-Template
+Upstream-Contact: nerdyscout <nerdyscout@posteo.de>
+Source: github.com/nerdyscout/KiBot-CICD-Template
+
+Files: pcb/*
+Copyright: 2022, nerdyscout <nerdyscout@posteo.de>
+License: CERN-OHL-P-2.0
+
+Files: pcb/docs/* README.md
+Copyright: 2022, nerdyscout <nerdyscout@posteo.de>
+License: CC-BY-SA-4.0
+
+Files: src/* lib/* include/* test/*
+Copyright: 2022, nerdyscout <nerdyscout@posteo.de>
+License: GPL-3.0-or-later
+
+Files: .gitignore .kibot/* *.yml *.yaml *.ini
+Copyright: 2022, nerdyscout <nerdyscout@posteo.de>
+License: CC0-1.0
