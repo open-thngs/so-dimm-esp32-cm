@@ -20,8 +20,8 @@ on:
     - "**/*kibot.yml"
 
 env:
-  schema: "pcb/*.kicad_sch"
-  board: "pcb/*.kicad_pcb"
+  schema: "pcb/so-dimm-esp32-cm.kicad_sch"
+  board: "pcb/so-dimm-esp32-cm.kicad_pcb"
   dir: .
 
 jobs:
