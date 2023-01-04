@@ -2,5 +2,4 @@
   (lib (name "SX1503I091TRT")(type "Legacy")(uri "${KIPRJMOD}/components/SX1503I091TRT/KiCad/SX1503I091TRT.lib")(options "")(descr ""))
   (lib (name "PI4IOE5V9535LEX")(type "Legacy")(uri "${KIPRJMOD}/components/PI4IOE5V9535LEX/KiCad/PI4IOE5V9535LEX.lib")(options "")(descr ""))
   (lib (name "EVQ-PUA02K")(type "Legacy")(uri "${KIPRJMOD}/components/EVQ-PUA02K/KiCad/EVQ-PUA02K.lib")(options "")(descr ""))
-  (lib (name "RP2040")(type "Legacy")(uri "${KIPRJMOD}/components/RP2040/RP2040/RP2040.lib")(options "")(descr ""))
 )
