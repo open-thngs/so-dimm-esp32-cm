@@ -2142,7 +2142,7 @@
   (gr_text "RxD0" (at 154.686 80.645) (layer "B.SilkS") (tstamp e8de1c35-aae3-42ed-b091-b1a282d9f824)
     (effects (font (size 0.6 0.6) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "0" (at 155.448 85.852) (layer "B.SilkS") (tstamp e9e72693-9de1-4c23-9073-f0d83f096ce2)
+  (gr_text "0" (at 155.575 85.852) (layer "B.SilkS") (tstamp e9e72693-9de1-4c23-9073-f0d83f096ce2)
     (effects (font (size 0.6 0.6) (thickness 0.15)) (justify mirror))
   )
   (gr_text "I2C-0" (at 149.225 88.9) (layer "B.SilkS") (tstamp fcb1e36b-2334-4023-99db-2351db2c941e)
