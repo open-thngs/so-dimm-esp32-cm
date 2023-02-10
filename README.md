@@ -1,4 +1,6 @@
-SO-DIMM-ESP32-S2-CM
+# SO-DIMM-ESP32-S2-CM
+
+![](img/feature-image.jpg)
 
 This is a ESP32-S2 based Compute Module to replace the Raspberry Pi's Compute Modules CM2 and CM3. This module is footprint compatible to the Raspberry Pi CM (SO-DIMM-DDR2). The ESP32-S2 brings USB, I2C and SPI.
 
