@@ -15,3 +15,10 @@ Features:
 ## GPIO Reference
 
 ![](img/ESP32S2-CM-CM3%2Bgpio-reference.jpg)
+
+GPIO Expander references E1_IOX_Y = < Expander >_< Bank >_< GPIO >
+Example: E1_IO0_2 is the GPIO 2 of the Bank 0 in GPIO Expander 1. GPIO count starts at 0.
+
+GPIO Expander E1 has address 0x20
+GPIO Expander E2 has address 0x21
+
