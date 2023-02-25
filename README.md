@@ -14,6 +14,17 @@ Features:
 - 1x UART
 - USB
 
+## OSHW Certified
+
+[OSHW] DE000133 | Certified open source hardware | oshwa.org/cert
+
+[https://certification.oshwa.org/de000133.html](https://certification.oshwa.org/de000133.html)
+
+![](img/OSHW-DE000133.png)
+
+![](img/oshw_facts.png)
+
+
 ## GPIO Reference
 
 ![](img/ESP32S2-CM-CM3gpio-reference.jpg)
