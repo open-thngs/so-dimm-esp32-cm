@@ -20,7 +20,7 @@ Features:
 
 [https://certification.oshwa.org/de000133.html](https://certification.oshwa.org/de000133.html)
 
-![](img/OSHW-DE000133.png)
+![](img/OSHW-DE000133_WBG.png)
 
 ![](img/oshw_facts.png)
 
