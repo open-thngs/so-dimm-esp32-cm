@@ -1,0 +1,7 @@
+# Description of an app specification file using YAML syntax.
+
+name: SO-DIMM-ESP32S2-CM
+entrypoint: main.toit
+triggers:
+  on_boot: true
+  on_install: true
