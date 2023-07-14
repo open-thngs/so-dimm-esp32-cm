@@ -1,0 +1,9 @@
+name: "LED"
+entrypoint: led-app.toit
+triggers:
+  on_boot: true
+  on_install: true
+
+pubsub:
+  subscriptions:
+    - "device:ahl-open"
