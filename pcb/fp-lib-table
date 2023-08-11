@@ -1,8 +1,8 @@
 (fp_lib_table
+  (version 7)
   (lib (name "SODIMM")(type "KiCad")(uri "${KIPRJMOD}/components/SODIMM.pretty")(options "")(descr ""))
   (lib (name "SX1503I091TRT")(type "KiCad")(uri "${KIPRJMOD}/components/SX1503I091TRT/KiCad")(options "")(descr ""))
   (lib (name "PI4IOE5V9535LEX")(type "KiCad")(uri "${KIPRJMOD}/components/PI4IOE5V9535LEX/KiCad")(options "")(descr ""))
   (lib (name "EVQ-PUA02K")(type "KiCad")(uri "${KIPRJMOD}/components/EVQ-PUA02K/KiCad")(options "")(descr ""))
   (lib (name "W25Q32JVSSIQ_TR")(type "KiCad")(uri "${KIPRJMOD}/components/W25Q32JVSSIQ_TR/KiCad")(options "")(descr ""))
-  (lib (name "RP2040")(type "KiCad")(uri "${KIPRJMOD}/components/RP2040/RP2040/RP2040.pretty")(options "")(descr ""))
 )
