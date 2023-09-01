@@ -22,9 +22,9 @@ outputs:
     dir: 'Generated/render'
     options:
       point_of_view:
-        rotate_x: 45
-        rotate_y: 45
-        rotate_z: 75
+        rotate_x: -45
+        rotate_y: 0
+        rotate_z: 0
       pcb3d:
         download: true
       render_options:
