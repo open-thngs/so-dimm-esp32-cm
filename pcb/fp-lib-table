@@ -5,4 +5,5 @@
   (lib (name "PI4IOE5V9535LEX")(type "KiCad")(uri "${KIPRJMOD}/components/PI4IOE5V9535LEX/KiCad")(options "")(descr ""))
   (lib (name "EVQ-PUA02K")(type "KiCad")(uri "${KIPRJMOD}/components/EVQ-PUA02K/KiCad")(options "")(descr ""))
   (lib (name "W25Q32JVSSIQ_TR")(type "KiCad")(uri "${KIPRJMOD}/components/W25Q32JVSSIQ_TR/KiCad")(options "")(descr ""))
+  (lib (name "AW9523BTQR")(type "KiCad")(uri "${KIPRJMOD}/components/AW9523BTQR")(options "")(descr ""))
 )

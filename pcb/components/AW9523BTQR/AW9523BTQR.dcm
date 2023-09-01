@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AW9523BTQR
+D 16 MULTI-FUNCTION LED DRIVER AND GPIO CONTROLLER WITH I2C INTERFACE
+K
+F https://www.alldatasheet.net/datasheet-pdf/pdf/1148543/AWINIC/AW9523BTQR.html
+$ENDCMP
+#
+#End Doc Library

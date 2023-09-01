@@ -1,5 +1,7 @@
 (sym_lib_table
+  (version 7)
   (lib (name "SX1503I091TRT")(type "Legacy")(uri "${KIPRJMOD}/components/SX1503I091TRT/KiCad/SX1503I091TRT.lib")(options "")(descr ""))
   (lib (name "PI4IOE5V9535LEX")(type "Legacy")(uri "${KIPRJMOD}/components/PI4IOE5V9535LEX/KiCad/PI4IOE5V9535LEX.lib")(options "")(descr ""))
   (lib (name "EVQ-PUA02K")(type "Legacy")(uri "${KIPRJMOD}/components/EVQ-PUA02K/KiCad/EVQ-PUA02K.lib")(options "")(descr ""))
+  (lib (name "AW9523BTQR")(type "KiCad")(uri "${KIPRJMOD}/components/AW9523BTQR/AW9523BTQR.kicad_sym")(options "")(descr ""))
 )
