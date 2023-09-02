@@ -70,3 +70,5 @@ outputs:
     dir: 'Generated/print'
     options:
       format: 'PNG'
+      pages:
+        layers: ["F.Cu", "B.Cu", "F.Silkscreen", "B.Silkscreen", "F.Mask", "B.Mask", "Edge.Cuts", "F.Paste", "B.Paste"]
