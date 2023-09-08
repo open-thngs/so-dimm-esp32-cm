@@ -36,7 +36,7 @@ outputs:
   - name: 'Gerber Files'
     type: 'gerber'
     dir: 'Generated/gerbers'
-    layers: ["F.Cu", "B.Cu", "F.Silkscreen", "B.Silkscreen", "F.Mask", "B.Mask", "Edge.Cuts", "F.Paste", "B.Paste"]
+    layers: ["F.Cu", "In1.Cu", "In2.Cu", "B.Cu", "F.Silkscreen", "B.Silkscreen", "F.Mask", "B.Mask", "Edge.Cuts", "F.Paste", "B.Paste"]
 
   - name: 'Gerber Drill Files'
     type: 'gerb_drill'
