@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "OPENTHING 1 - ESP-CM3")
+    (date "2023-09-11")
+    (rev "REV.03")
+    (company "OPEN THINGS")
+  )
+
   (lib_symbols
     (symbol "Connector:TestPoint_Small" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom yes) (on_board yes)
       (property "Reference" "TP" (at 0 3.81 0)
