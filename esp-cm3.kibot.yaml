@@ -60,6 +60,8 @@ outputs:
   - name: 'Pick and Place'
     type: 'position'
     dir: 'Generated/position'
+    options:
+      format: 'CSV'
 
   - name: '3D STEP'
     type: 'step'
