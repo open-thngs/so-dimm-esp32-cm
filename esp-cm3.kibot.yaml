@@ -18,7 +18,6 @@ preflight:
 
 import:
   - configs/JLCPCB.kibot.yaml
-  - configs/JLCPCB_position.kibot.yaml
   - configs/PCBWay.kibot.yaml
 
 outputs:
