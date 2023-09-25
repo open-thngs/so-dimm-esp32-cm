@@ -16,6 +16,11 @@ preflight:
   check_zone_fills: true
   ignore_unconnected: false
 
+import:
+  - configs/JLCPCB.kibot.yaml
+  - configs/JLCPCB_position.kibot.yaml
+  - configs/PCBWay.kibot.yaml
+
 outputs:
   - name: 'Blender 3D Image'
     type: 'blender_export'
