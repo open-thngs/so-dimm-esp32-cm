@@ -3649,7 +3649,7 @@
     (property "ki_description" "Mounting Hole with connection")
     (property "ki_keywords" "mounting hole")
     (path "/cc769b4c-d6e0-4ec8-b098-dd9d917f2442")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "H1" (at 0 -3.7) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b18900a7-2fbd-49da-a904-c7f80c9f01d2)
@@ -4298,7 +4298,7 @@
     (property "ki_description" "3-pole Solder Jumper, pins 1+2 closed/bridged")
     (property "ki_keywords" "Solder Jumper SPDT")
     (path "/361445f3-9328-49e0-8be6-a1bf402c656a")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (net_tie_pad_groups "1, 2, 3")
     (fp_text reference "JP1" (at 0 1.8) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -4391,7 +4391,7 @@
     (property "ki_description" "3-pole Solder Jumper, pins 1+2 closed/bridged")
     (property "ki_keywords" "Solder Jumper SPDT")
     (path "/3e2b9744-5a5b-49c7-b24b-ad631d23ef4a")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (net_tie_pad_groups "1, 2, 3")
     (fp_text reference "JP2" (at 0 1.8) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
