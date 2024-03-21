@@ -6,9 +6,10 @@
 
   (title_block
     (title "OPENTHING 1 - ESP-CM3")
-    (date "2023-09-11")
+    (date "2024-03-21")
     (rev "REV.03")
     (company "OPEN THINGS")
+    (comment 1 "Mirko Häberlin")
   )
 
   (lib_symbols
