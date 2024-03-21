@@ -36,3 +36,5 @@ fp-info-cache
 # vscode + platformio
 .pio
 .vscode/*
+
+*.lck

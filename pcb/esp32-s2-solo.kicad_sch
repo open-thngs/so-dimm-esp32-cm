@@ -1327,7 +1327,7 @@
     (property "Reference" "U2" (at 209.2041 27.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "ESP32-S2-SOLO" (at 209.2041 30.48 0)
+    (property "Value" "ESP32-S3-WROOM-1-N8" (at 209.2041 30.48 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "PCM_Espressif:ESP32-S2-SOLO" (at 207.01 127 0)
